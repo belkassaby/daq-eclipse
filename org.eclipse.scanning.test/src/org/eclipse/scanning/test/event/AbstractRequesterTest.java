@@ -22,7 +22,7 @@ public class AbstractRequesterTest {
 	protected IRequester<DeviceRequest> requester;
 	protected IResponder<DeviceRequest> responder;
 	
-	protected void connect(IEventService eservice, IDeviceService dservice) throws Exception {
+	protected void connect(IEventService eservice, IRunnableDeviceService dservice) throws Exception {
 		
 		this.eservice = eservice;
 		this.dservice = dservice;
